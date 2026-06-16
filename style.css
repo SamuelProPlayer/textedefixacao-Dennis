@@ -3,3 +3,11 @@
     width: 80vw;
     height: 600vh;
 }
+ .nav { 
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+
+ }
