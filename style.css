@@ -34,7 +34,7 @@ header, footer {
   max-width: 350px;
 }
 
-.country > btn-fase {
+.btn-fase {
   display: inline-block;
   padding: 10px 22px;
   font-size: 1rem;
