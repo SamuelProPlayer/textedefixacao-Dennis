@@ -29,17 +29,26 @@ header, footer {
   
  }
 .country {
-  display: flex;
-  gap: 18px;
-  margin: 16px 0;
+  background: #000000;
+  border-radius: 8px;
+  box-shadow: 0 2px 14px rgba(70,70,90,0.14);
+  padding: 22px 26px;
+  margin-bottom: 18px;
+  border-left: 4px solid #4284f5;
+  max-width: 350px;
 }
-.country > div {
-  background: #f1ebeb;
-  color: #fff;
-  padding: 20px 0;
-  flex: 1 1 0;
-  text-align: center;
-  border-radius: 5px;
+
+.country > btn-fase {
+  display: inline-block;
+  padding: 10px 22px;
+  font-size: 1rem;
+  border-radius: 4px;
+  background: #ffffff;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 6px 4px 6px 0;
 }
 .country > img {
     max-width: 5%;
