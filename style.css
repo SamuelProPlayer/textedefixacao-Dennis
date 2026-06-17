@@ -171,7 +171,7 @@ section {
 }
 
 .results > div {
-    background: linear-gradient(135deg, #4284f5 0%, #5a9eff 100%);
+    background: black
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -200,18 +200,3 @@ footer p {
     color: #ffe162;
 }
 
-@media (max-width: 768px) {
-    .nav h1 {
-        font-size: 1.8rem;
-    }
-    
-    .country {
-        max-width: 100%;
-    }
-    
-    .statistic,
-    .players,
-    .results {
-        max-width: 100%;
-    }
-}
