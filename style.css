@@ -122,7 +122,7 @@ section {
 }
 
 .statistic > div {
-    background: linear-gradient(135deg, #ffe162 0%, #ffed4e 100%);
+    background: black
     color: #000000;
     padding: 30px 20px;
     border-radius: 10px;
@@ -178,7 +178,9 @@ section {
   
 }
 
-
+.results > div:hover {
+    transform: translateY(-8px);
+}
 footer {
     background: #000000;
     color: #fff;
