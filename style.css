@@ -10,9 +10,15 @@
 }
  .nav { 
     display: flex;
-    background-color: black;
+    gap: 18px;
+    margin: 16px 0;
+ }
+ .nav > div {
+     background-color: black;
     color: white;
+    padding: 20px ;
     align-items: center;
     justify-content: center;
-
+    
+    
  }
