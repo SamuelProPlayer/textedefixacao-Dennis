@@ -36,7 +36,7 @@ header {
 
 .nav h1 {
     font-size: 2.5rem;
-    color: #4284f5;
+    color: #000000;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
@@ -67,20 +67,17 @@ section {
 }
 
 .country {
-    background: linear-gradient(135deg, #1e1e2e 0%, #2a2a3e 100%);
+    background: white
     border-radius: 12px;
-    box-shadow: 0 8px 32px rgba(66, 132, 245, 0.2);
+   
     padding: 30px;
     border: 2px solid #4284f5;
     text-align: center;
     max-width: 500px;
-    transition: transform 0.3s, box-shadow 0.3s;
+
 }
 
-.country:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 12px 48px rgba(66, 132, 245, 0.4);
-}
+
 
 .country img {
     max-width: 120px;
@@ -90,7 +87,7 @@ section {
 }
 
 .country h2 {
-    color: #4284f5;
+    color: #000000;
     font-size: 2rem;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -98,7 +95,7 @@ section {
 }
 
 .country p {
-    color: #ffe162;
+    color: #000000;
     font-size: 1rem;
     margin-bottom: 20px;
     font-weight: bold;
@@ -109,19 +106,15 @@ section {
     padding: 12px 30px;
     font-size: 1rem;
     border-radius: 6px;
-    background: #ffe162;
+    background: #ffffff;
     color: #000000;
     border: none;
     cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
-    transition: all 0.3s;
+
 }
 
-.btn-fase:hover {
-    background: #ffed4e;
-    transform: scale(1.05);
-}
 
 .statistic {
     display: grid;
@@ -139,8 +132,7 @@ section {
     text-align: center;
     font-weight: bold;
     font-size: 1.2rem;
-    box-shadow: 0 6px 20px rgba(255, 225, 98, 0.2);
-    transition: transform 0.3s;
+  
 }
 
 .statistic > div:hover {
@@ -156,14 +148,14 @@ section {
 }
 
 .players > h3 {
-    background: linear-gradient(135deg, #b500a9 0%, #d000c9 100%);
+    background: black
     color: #ffffff;
     padding: 25px 20px;
     border-radius: 10px;
     text-align: center;
     font-size: 1.1rem;
     box-shadow: 0 6px 20px rgba(181, 0, 169, 0.3);
-    transition: transform 0.3s;
+    
 }
 
 .players > h3:hover {
