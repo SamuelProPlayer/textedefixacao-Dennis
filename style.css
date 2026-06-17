@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 .body {
     background-color: gray;
     width: 80vw;
@@ -10,7 +6,7 @@
     padding: 20px;
 }
 header, footer {
-    background: #000000;
+  background: #000000;
   color: #fff;
   padding: 16px 0;
   text-align: center;
