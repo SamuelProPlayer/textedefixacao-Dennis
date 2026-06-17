@@ -132,7 +132,13 @@ section {
   
 }
 
+.statistic > div .victory {
+    color: #00ff00;
+}
 
+.statistic > div .loser{
+    color: #ff0000;
+}
 
 .players {
     display: grid;
@@ -171,6 +177,10 @@ section {
     font-weight: bold;
     font-size: 1.1rem;
   
+}
+
+.results > div .victory {
+    color: #00ff00;
 }
 
 footer {
