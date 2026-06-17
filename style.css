@@ -1,29 +1,32 @@
-
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: gray;
     width: 80vw;
-    height: 300vh;
+    height: 600vh;
     padding: 20px;
 }
+
 header, footer {
   background: #000000;
   color: #fff;
   padding: 16px 0;
   text-align: center;
 }
- .nav { 
+
+.nav { 
     display: flex;
     gap: 18px;
     margin: 16px 0;
- }
- .nav > div {
+}
+
+.nav h1,
+.nav p {
     background-color: black;
     color: white;
-    padding: 20px ;
+    padding: 20px;
     align-items: center;
     justify-content: center;
-  
- }
+}
+
 .country {
   background: #000000;
   border-radius: 8px;
@@ -46,10 +49,10 @@ header, footer {
   text-decoration: none;
   margin: 6px 4px 6px 0;
 }
-.country > img {
+
+.country img {
     max-width: 5%;
     padding-bottom: 2px;
-
 }
 
 .statistic {
@@ -57,6 +60,7 @@ header, footer {
   grid-template-columns: repeat(2, 1fr);
   gap: 18px;
 }
+
 .statistic > div {
   background: #ffe162;
   color: #000000;
@@ -65,14 +69,30 @@ header, footer {
   text-align: center;
 }
 
- .players {
+.players {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
 }
-.players > div {
+
+.players > h3 {
   background: #000000;
   color: #b500a9;
   padding: 20px 0;
   border-radius: 5px;
   text-align: center;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+.results > div {
+  background: #4284f5;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+}
