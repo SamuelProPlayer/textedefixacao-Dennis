@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
     width: 80vw;
     height: 100vh;
     padding: 20px;
@@ -77,7 +77,7 @@ header, footer {
 
 .players > h3 {
   background: #000000;
-  color: #b500a9;
+  color: #970c8d;
   padding: 20px 0;
   border-radius: 5px;
   text-align: center;
@@ -90,7 +90,7 @@ header, footer {
 }
 
 .results > div {
-  background: #4284f5;
+  background: #000000;
   color: white;
   padding: 15px;
   border-radius: 5px;
