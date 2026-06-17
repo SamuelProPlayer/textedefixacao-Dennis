@@ -54,10 +54,20 @@ header, footer {
 }
 .statistic > div {
   background: #ffe162;
-  color: #2a3a4e;
+  color: #000000;
   padding: 20px 0;
   border-radius: 5px;
   text-align: center;
 }
 
- 
+ .players {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.players > div {
+  background: #000000;
+  color: #b500a9;
+  padding: 20px 0;
+  border-radius: 5px;
+  text-align: center;
