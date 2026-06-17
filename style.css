@@ -47,4 +47,17 @@ header, footer {
 
 }
 
+.statistic {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.statistic > div {
+  background: #ffe162;
+  color: #2a3a4e;
+  padding: 20px 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
  
