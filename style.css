@@ -178,9 +178,6 @@ section {
   
 }
 
-.results > div:hover {
-    transform: translateY(-8px);
-}
 
 footer {
     background: #000000;
